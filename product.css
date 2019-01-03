@@ -1,0 +1,10 @@
+.opening {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 20vh;
+  width: 20vw;
+  color: white;
+}
