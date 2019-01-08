@@ -4,7 +4,44 @@
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
-  height: 20vh;
-  width: 20vw;
   color: white;
+  width: 20vw;
+  height: 20vw;
+  opacity: 1;
+  }
+
+.overlay {
+  opacity: 0;
+  background-color: black;
+  width: 20vw;
+  height: 20vw;
+}
+
+.overlay:hover{
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  background-color: rgba(0,0,0,0.4);
+  text-decoration: none;
+}
+
+.img-p {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+  .opening{
+    width: auto;
+    height: 30vw;
+  }
+
+  .overlay{
+    width: auto;
+    height: 30vw;
+  }
+
+  .img-p {
+    padding: 0.25rem;
+  }
+
 }
