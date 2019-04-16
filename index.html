@@ -1,25 +1,185 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ja">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Hello, World! - A-Frame</title>
-    <meta name="description" content="Hello, World! - A-Frame">
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="./base.css">
+
+
+    <title>itotatu.y</title>
   </head>
-  <body>
-    <a-scene>
-      <a-assets>
-        <a-asset-item id="crate-obj" src="obj/rabbitlittle2.obj"></a-asset-item>
-        <a-asset-item id="crate-mtl" src="obj/rabbitlittle2.mtl"></a-asset-item>
-      </a-assets>
+  <body data-spy="scroll" data-target="#Navbar" class="all">
+    <section class="base">
+      <div class="container top d-flex align-items-center">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <h1>itotatu.y</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-bar">
+      <!-- Nav tabs -->
+      <div class="d-flex justify-content-center" id="Navbar">
+        <div class="col-xs-12">
+          <div class="d-flex justify-content-center">
+            <div class="tabs-wrapper">
+              <ul class="nav classic-tabs tabs-cyan justify-content-between px-1 mb-5" role="tablist">
+                  <li class="nav-item col px-1">
+                      <a class="nav-link waves-light active" onclick="scrollToTop()" data-toggle="tab" href="#panel51" role="tab">Works</a>
+                  </li>
+                  <li class="nav-item col px-1">
+                      <a class="nav-link waves-light" data-toggle="tab" href="#panel52" role="tab">About</a>
+                  </li>
+                  <li class="nav-item col px-1">
+                      <a class="nav-link waves-light" data-toggle="tab" href="#panel53" role="tab">Links</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
 
-      <!-- Using the asset management system. -->
-      <a-obj-model position="0 -1.25 -5" rotation="0 -60 0" src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
+      <!-- Tab panels -->
+      <div class="tab-content">
 
-      <!-- Defining the URL inline. Not recommended but may be more comfortable. -->
-      <a-obj-model position="0 -1.25 -5" rotation="0 -60 0" src="crate.obj" mtl="crate.mtl"></a-obj-model>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#a0d8ef"></a-sky>
-    </a-scene>
+        <!--Panel 1-->
+        <div class="tab-pane fade in show active " id="panel51" role="tabpanel">
+          <div class="d-flex justify-content-center" id="target">
+            <div class="col-lg-8 p-1">
+              <div class="d-flex flex-wrap" id="products">
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/top/shinonome_top.png)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center port-title">
+                            <a class="m-0" href="./portfolios/shinonome-ad.html">Shinonome inc. 広告</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/top/book.jpg)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center">
+                            <a class="m-0">Book Service Design</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/hidatakayama.png)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center">
+                            <a class="m-0">Made by HidaTakayama</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/top/website_top.jpg)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center">
+                            <a class="m-0">workaway Redesign</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/top/fruitstoomoide_top.png)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center">
+                            <a class="m-0">Fruits to Omoide</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/top/startupw.jpg)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center">
+                            <a class="m-0">Startup Weekend Tokyo</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-4 img-p">
+                  <a href="###">
+                    <div class="opening" style="background-image: url(./img/rabbit.png)">
+                      <div class="overlay d-flex align-items-center">
+                        <div class="col">
+                          <div class="d-flex justify-content-center">
+                            <a class="m-0">プログラミング教室キャラクター</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Panel 1-->
+
+        <!--Panel 2-->
+        <div class="tab-pane fade" id="panel52" role="tabpanel">
+            <p>About</p>
+
+        </div>
+        <!--/.Panel 2-->
+
+        <!--Panel 3-->
+        <div class="tab-pane fade" id="panel53" role="tabpanel">
+            <p>Links</p>
+
+        </div>
+        <!--/.Panel 3-->
+      </div>
+      <script>
+          var element = document.getElementById('target'); // 移動させたい位置の要素を取得
+          var rect = element.getBoundingClientRect();
+          var position = rect.top;    // 一番上からの位置を取得
+
+        function scrollToTop() {
+        scrollTo(0, position);
+        }
+       </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
