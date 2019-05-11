@@ -34,11 +34,9 @@
 
 .button a{
   color:black;
-  ;
 }
 .button a:hover{
   opacity: 0.5;
-  ;
 }
 
 @media screen and (max-width: 768px){
