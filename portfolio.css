@@ -1,12 +1,18 @@
 .sub-title h3{
     font-weight: 600;
 }
+.tag p{
+    margin: 0;
+}
 
-
+.p-title h1 {
+    font-weight: 600;
+}
 
 @media screen and (max-width: 768px){
-    .p-title h4{
-        font-size: 1rem;
+    .p-title h1{
+        font-size: 1.6rem;
+        font-weight: 600;
     }
 
     body .p-title {

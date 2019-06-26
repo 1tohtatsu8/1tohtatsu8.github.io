@@ -38,12 +38,12 @@
                   </li>
                   <li class="nav-item col px-1">
                     <div class="button">
-                      <a class="nav-link waves-light" data-toggle="tab" href="#panel52" role="tab">About</a>
+                      <a class="nav-link waves-light" onclick="scrollToTop()" data-toggle="tab" href="#panel52" role="tab">About</a>
                     </div>
                   </li>
                   <li class="nav-item col px-1">
                     <div class="button">
-                      <a class="nav-link waves-light" data-toggle="tab" href="#panel53" role="tab">Links</a>
+                      <a class="nav-link waves-light" onclick="scrollToTop()" data-toggle="tab" href="#panel53" role="tab">Links</a>
                       </div>
                   </li>
               </ul>
@@ -79,7 +79,7 @@
                     <div class="opening" style="background-image: url(./img/top/book.jpg)">
                       <div class="overlay d-flex align-items-center">
                         <div class="col">
-                          <div class="d-flex justify-content-center">
+                          <div class="d-flex justify-content-center port-title">
                             <a class="m-0">Book Service Design</a>
                           </div>
                         </div>
@@ -92,7 +92,7 @@
                     <div class="opening" style="background-image: url(./img/hidatakayama.png)">
                       <div class="overlay d-flex align-items-center">
                         <div class="col">
-                          <div class="d-flex justify-content-center">
+                          <div class="d-flex justify-content-center port-title">
                             <a class="m-0">Made by HidaTakayama</a>
                           </div>
                         </div>
@@ -105,7 +105,7 @@
                     <div class="opening" style="background-image: url(./img/top/website_top.jpg)">
                       <div class="overlay d-flex align-items-center">
                         <div class="col">
-                          <div class="d-flex justify-content-center">
+                          <div class="d-flex justify-content-center port-title">
                             <a class="m-0">workaway Redesign</a>
                           </div>
                         </div>
@@ -118,8 +118,8 @@
                     <div class="opening" style="background-image: url(./img/top/fruitstoomoide_top.png)">
                       <div class="overlay d-flex align-items-center">
                         <div class="col">
-                          <div class="d-flex justify-content-center">
-                            <a class="m-0">Fruits to Omoide</a>
+                          <div class="d-flex justify-content-center port-title">
+                            <a class="m-0" href="./portfolios/fruits_omoide.html">Fruits to Omoide</a>
                           </div>
                         </div>
                       </div>
@@ -131,7 +131,7 @@
                     <div class="opening" style="background-image: url(./img/top/startupw.jpg)">
                       <div class="overlay d-flex align-items-center">
                         <div class="col">
-                          <div class="d-flex justify-content-center">
+                          <div class="d-flex justify-content-center port-title">
                             <a class="m-0">Startup Weekend Tokyo</a>
                           </div>
                         </div>
@@ -144,7 +144,7 @@
                     <div class="opening" style="background-image: url(./img/rabbit.png)">
                       <div class="overlay d-flex align-items-center">
                         <div class="col">
-                          <div class="d-flex justify-content-center">
+                          <div class="d-flex justify-content-center port-title">
                             <a class="m-0">プログラミング教室キャラクター</a>
                           </div>
                         </div>
@@ -161,7 +161,56 @@
 
         <!--Panel 2-->
         <div class="tab-pane fade" id="panel52" role="tabpanel">
-            <p>About</p>
+            <div class="d-flex justify-content-center" id="target">
+                <div class="col-sm-7 p-0">
+                  <div class="d-flex justify-content-center mt-5">
+                    <img src="./img/me.jpg" width="140vw" height="140vw" class="rounded-circle">
+                  </div>
+                  <div class="d-flex justify-content-center mt-3">
+                    <h3>伊藤 達也</h3>
+                  </div>
+                  <div class="col">
+                    <div class="sub-title my-3 mx-2">
+                     <div class="d-flex justify-content-center tag">
+                        <p>制作時間：３日間（制作期間は２ヶ月ほど）</p>
+                     </div>
+                     <div class="d-flex justify-content-center tag">
+                        <p>制作ソフト：Illustrator,Photoshop</p>
+                     </div>
+                    </div>
+                    <div class="sub-title mt-5 mx-2 mb-3">
+                      <h3>季節を感じる二対のポスタカード</h3>
+                    </div>
+                    <div class="main-sentece">
+                      <p>2017年9月から始まった大学の授業内の課題で作成したものになります。</p>
+                    </div>
+                    <div class="main-sentece">
+                      <p>課題内容としては、二つの季節を対比させて二枚のポストカードを制作するという内容です。</p>
+                    </div>
+                    <div class="sub-title mt-5 mx-2 mb-3">
+                      <h3>テーマ</h3>
+                    </div>
+                    <div class="main-sentece">
+                      <p>このポストカードは季節から感じる五感をテーマに作成しました。
+                    </div>
+                    <div class="main-sentece">
+                      <p>冬の雪山では、冷たくなった鼻で嗅ぐ雪の匂い、雪山の静けさ、冬になるとおやつに出るキウイフルーツの味。</p>
+                    </div>
+                    <div class="sub-title mt-5 mx-2 mb-3">
+                      <h3>工夫した点</h3>
+                    </div> 
+                    <div class="main-sentece">
+                      <p>夏の写真と冬の写真を対比させるために、二つの写真で要らない部分を取り除いたり二つの写真を近い明度と彩度にしたりすることで統一感を出しました。</p>
+                    </div>
+                    <div class="main-sentece">
+                      <p>フルーツは人々が想像するような抽象的なものにしたかったのでフルーツのイラストを作成しました。イラストもリアルになりすぎないようにグラデーションはそれぞれ一箇所ずつしか使わないことでアイコンのような印象を与えるようにしました。</p>
+                    </div>
+                    <div class="my-5 py-5">
+                    </div>         
+                  </div>
+                </div>
+              </div>
+          
 
         </div>
         <!--/.Panel 2-->

@@ -9,9 +9,15 @@
   opacity: 1;
   }
 
-  .port-title{
+.port-title a{
   color: white;
-  }
+}
+
+.port-title a:hover{
+  text-decoration: none;
+  opacity: 0.5;
+
+}
 
 .overlay {
   opacity: 0;
@@ -52,6 +58,10 @@
 
   .img-p {
     padding: 0.25rem;
+  }
+
+  .port-title a{
+    font-size: 0.85rem;
   }
 
 }
