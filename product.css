@@ -65,3 +65,12 @@
   }
 
 }
+
+
+/* links */
+.link-sns {
+  border-radius: 33px;
+  width: 152px;
+  height: 152px;
+  background-size: 152px;
+}
