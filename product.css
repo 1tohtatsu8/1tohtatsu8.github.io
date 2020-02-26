@@ -15,7 +15,7 @@
 
 .port-title a:hover{
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.4;
 
 }
 
@@ -42,7 +42,10 @@
   color:black;
 }
 .button a:hover{
-  opacity: 0.5;
+  opacity: 0.4;
+}
+.button .active a{
+  opacity: 0.4;
 }
 
 
@@ -60,7 +63,7 @@
 
 /* links */
 .link-sns:hover {
-  opacity: 0.8;
+  opacity: 0.4;
 }
 .link-id p{
   color: #616161;
